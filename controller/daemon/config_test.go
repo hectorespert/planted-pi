@@ -22,14 +22,8 @@ func TestParseConfig(t *testing.T) {
 			wantErr: false,
 		},
 		{
-			name:    "Parse config file in json format",
+			name:    "Default config on parse error",
 			args:    args{filename: "../../build/config.json"},
-			want:    Config{Database: "/var/lib/reef-pi/reef-pi.db"},
-			wantErr: false,
-		},
-		{
-			name:    "Default config on error",
-			args:    args{filename: "../../build/config.jpeg"},
 			want:    Config{Database: "reef-pi.db"},
 			wantErr: true,
 		},

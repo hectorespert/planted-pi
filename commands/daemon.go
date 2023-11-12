@@ -12,8 +12,8 @@ import (
 	"github.com/reef-pi/reef-pi/controller/daemon"
 )
 
-func daemonize(db string) {
-	c, err := daemon.New(Version, db)
+func daemonize(db daemon.Config) {
+	c, err := daemon.New(Version, db.Database)
 	if err != nil {
 		log.Fatal("ERROR: Failed to initialize controller. Error:", err)
 	}

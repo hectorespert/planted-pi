@@ -122,7 +122,7 @@ func main() {
 		}
 		cmd.Parse(args)
 		config := loadConfig(*configFile)
-		daemonize(config.Database)
+		daemonize(config)
 	default:
 		fmt.Println("Unknown command: '", v, "'")
 		os.Exit(1)
