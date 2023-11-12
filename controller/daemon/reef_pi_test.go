@@ -28,7 +28,7 @@ func TestReefPi(t *testing.T) {
 		t.Fatal(err)
 	}
 	store.Close()
-	r, err := New("0.1", conf.Database)
+	r, err := New("0.1", conf)
 	if err != nil {
 		t.Fatal("Failed to create new reef-pi controller. Error:", err)
 	}

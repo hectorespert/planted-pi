@@ -25,10 +25,10 @@ type ReefPi struct {
 	subsystems *controller.SubsystemComposite
 }
 
-func New(version, database string) (*ReefPi, error) {
-	store, err := storage.NewStore(database)
+func New(version string, config Config) (*ReefPi, error) {
+	store, err := storage.NewStore(config.Database)
 	if err != nil {
-		log.Println("ERROR: Failed to create store. DB:", database)
+		log.Println("ERROR: Failed to create store. DB:", config.Database)
 		return nil, err
 	}
 	s, err := loadSettings(store)

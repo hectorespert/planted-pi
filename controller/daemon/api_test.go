@@ -26,7 +26,7 @@ func TestAPI(t *testing.T) {
 	}
 	store.Close()
 
-	r, err := New("0.1", "api-test.db")
+	r, err := New("0.1", Config{Database: "api-test.db"})
 	if err != nil {
 		t.Fatal("Failed to create new reef-pi controller. Error:", err)
 	}
