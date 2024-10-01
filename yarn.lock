@@ -1963,10 +1963,10 @@
     pluralize "^8.0.0"
     yaml-ast-parser "0.0.43"
 
-"@remix-run/router@1.14.1":
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.14.1.tgz#6d2dd03d52e604279c38911afc1079d58c50a755"
-  integrity sha512-Qg4DMQsfPNAs88rb2xkdk03N3bjK4jgX5fR24eHCTR9q6PrhZQZ4UJBPzCHJkIpTRN1UKxx2DzjZmnC+7Lj0Ow==
+"@remix-run/router@1.19.2":
+  version "1.19.2"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.19.2.tgz#0c896535473291cb41f152c180bedd5680a3b273"
+  integrity sha512-baiMx18+IMuD1yyvOGaHM9QrVUPGGG0jC+z+IPHnRJWUAUvaKuWKyE8gjDj2rzv3sz9zOGoRSPgeBVHRhZnBlA==
 
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"
@@ -10622,20 +10622,20 @@ react-resize-detector@^7.1.2:
   dependencies:
     lodash "^4.17.21"
 
-react-router-dom@^6.21.1:
-  version "6.21.1"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.21.1.tgz#58b459d2fe1841388c95bb068f85128c45e27349"
-  integrity sha512-QCNrtjtDPwHDO+AO21MJd7yIcr41UetYt5jzaB9Y1UYaPTCnVuJq6S748g1dE11OQlCFIQg+RtAA1SEZIyiBeA==
+react-router-dom@^6.26.2:
+  version "6.26.2"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.26.2.tgz#a6e3b0cbd6bfd508e42b9342099d015a0ac59680"
+  integrity sha512-z7YkaEW0Dy35T3/QKPYB1LjMK2R1fxnHO8kWpUMTBdfVzZrWOiY9a7CtN8HqdWtDUWd5FY6Dl8HFsqVwH4uOtQ==
   dependencies:
-    "@remix-run/router" "1.14.1"
-    react-router "6.21.1"
+    "@remix-run/router" "1.19.2"
+    react-router "6.26.2"
 
-react-router@6.21.1:
-  version "6.21.1"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.21.1.tgz#8db7ee8d7cfc36513c9a66b44e0897208c33be34"
-  integrity sha512-W0l13YlMTm1YrpVIOpjCADJqEUpz1vm+CMo47RuFX4Ftegwm6KOYsL5G3eiE52jnJpKvzm6uB/vTKTPKM8dmkA==
+react-router@6.26.2:
+  version "6.26.2"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.26.2.tgz#2f0a68999168954431cdc29dd36cec3b6fa44a7e"
+  integrity sha512-tvN1iuT03kHgOFnLPfLJ8V95eijteveqdOSk+srqfePtQvqCExB8eHOYnlilbOcyJyKnYkr1vJvf7YqotAJu1A==
   dependencies:
-    "@remix-run/router" "1.14.1"
+    "@remix-run/router" "1.19.2"
 
 react-smooth@^2.0.1:
   version "2.0.1"
